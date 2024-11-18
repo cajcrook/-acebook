@@ -1,7 +1,7 @@
 # 'acebook
 ## WORK IN PROGRESS
+This repo contains our group project - 'acebook a simple replica of a popular social network.
 
-This repo contains a simple replica of a popular social network.
 ### Welcome to Club Watermelon!
 
 ### Structure
@@ -15,11 +15,13 @@ ran separately.
 
 #### Frontend
 JavaScript, React, CSS, Bootstrap  
+
 [![My Skills](https://skillicons.dev/icons?i=js,react,css,bootstrap)](https://skillicons.dev)
 
 #### Backend
 Javascript, MongoDB
-[![My Skills](https://skillicons.dev/icons?i=js, mongodb)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=js,mongodb,express)](https://skillicons.dev)
 
 #### Current functionality:
 - User can sign up.
