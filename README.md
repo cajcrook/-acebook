@@ -1,38 +1,44 @@
-## Welcome to the Watermelon Club!
+# 'acebook
+## WORK IN PROGRESS
 
-   ```
-               _                           _             
-              | |                         | |            
-__      ____ _| |_ ___ _ __ _ __ ___   ___| | ___  _ __  
-\ \ /\ / / _` | __/ _ \ '__| '_ ` _ \ / _ \ |/ _ \| '_ \ 
- \ V  V / (_| | ||  __/ |  | | | | | |  __/ | (_) | | | |
-  \_/\_/ \__,_|\__\___|_|  |_| |_| |_|\___|_|\___/|_| |_|
+This repo contains a simple replica of a popular social network.
+### Welcome to Club Watermelon!
 
-   ```
-
-                                              
 ### Structure
-
 This repo contains two applications:
 
-- A frontend React App
-- A backend api server
+- A frontend React app
+- A backend API server
 
 These two applications will communicate through HTTP requests, and need to be
-run separately.
+ran separately.
+
+#### Frontend
+JavaScript, React, CSS, Bootstrap  
+[![My Skills](https://skillicons.dev/icons?i=js,react,css,bootstrap)](https://skillicons.dev)
+
+#### Backend
+Javascript, MongoDB
+[![My Skills](https://skillicons.dev/icons?i=js, mongodb)](https://skillicons.dev)
+
+#### Current functionality:
+- User can sign up.
+- User can log in.
+- User can create/ delete/ like/ unlike a post.
+- User can approve/ decline friend requests.
+- User can add/ remove friends.
+- User can send a direct message to a friend.
+  
+#### Currently scope of update:
+- Review full project in due course.
+
 
 ### Documentation
-
 [More documentation of the codebase and its architecture can be found here.](./DOCUMENTATION.md)
-
-### Watermelon Club Trello board
-
-https://trello.com/b/U5ezh6qc/watermelon-club
 
 ### Quickstart
 
 ### Install Node.js
-
 If you haven't already, make sure you have node and NVM installed.
 
 1. Install Node Version Manager (NVM)
@@ -73,21 +79,16 @@ If you haven't already, make sure you have node and NVM installed.
    ```
 
 ### Setting up environment variables.
-
 We need to create two `.env` files, one in the frontend and one in the api.
 
 #### Frontend
-
 Create a file `frontend/.env` with the following contents:
-
 ```
 VITE_BACKEND_URL="http://localhost:3000"
 ```
 
 #### Backend
-
 Create a file `api/.env` with the following contents:
-
 ```
 MONGODB_URL="mongodb://0.0.0.0/acebook"
 NODE_ENV="development"
@@ -97,18 +98,13 @@ JWT_SECRET="secret"
 For an explanation of these environment variables, see the documentation.
 
 ### How to run the server and use the app
-
 1. Start the server application (in the `api` directory) in dev mode:
-
 ```
 ; cd api
 ; npm run dev
 ```
-
 2. Start the front end application (in the `frontend` directory)
-
 In a new terminal session...
-
 ```
 ; cd frontend
 ; npm run dev
@@ -120,4 +116,3 @@ You should now be able to open your browser and go to
 Then, after signing up, you should be able to log in by going to
 `http://localhost:5173/login`.
 
-After logging in, you will be able to create/delete/like/unlike a post, add/remove a friend, approve/decline a friend request and send a direct message to one of your friends.
