@@ -1,0 +1,25 @@
+{
+  "name": "acebook-api",
+  "version": "1.0.0",
+  "description": "Backend template for the Makers Acebook project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "jest"
+  },
+  "author": "Makers Academy",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
