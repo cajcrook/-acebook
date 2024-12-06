@@ -79,6 +79,11 @@ If you haven't already, make sure you have node and NVM installed.
    ```
    brew services start mongodb-community@6.0
    ```
+### Seed the database
+  ```
+  cd api/seeds
+  node seed.js
+  ```
 
 ### Setting up environment variables.
 We need to create two `.env` files, one in the frontend and one in the api.
